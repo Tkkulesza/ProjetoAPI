@@ -1,0 +1,21 @@
+/* Estilos para o projeto API */
+:root {
+    --color1: #fff;
+    --color2: #333;
+    --bgcolor1: #f0faff;
+    --bgcolor2: #001f3f;
+    --font-family: "Cascadian code";
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--bgcolor1);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column ;
+    min-height: 100vh;
+    color: var(--color2);
+}
